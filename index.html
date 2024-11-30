@@ -3,7 +3,19 @@
         <script src="ble.js"></script>
     </head>
     <body onload="start()">
-        <h1>App for testing web bluetooth</h1>
+        <h1>Fluke BLE Test</h1>
         <button id="connectButton">Connect F3000FC</button>
+        <h2 id="val"></h2>
+        <ul>
+            <li><b>State:</b> <span id="state">?</span></li>
+            <li><b>Decimal Places:</b> <span id="decimal">?</span></li>
+            <li><b>Magnitude:</b> <span id="magnitude">?</span></li>
+            <li><b>Sign:</b> <span id="sign">?</span></li>
+            <li><b>Unit:</b> <span id="unit">?</span></li>
+            <li><b>Function:</b> <span id="function">?</span></li>
+            <li><b>Value Range:</b> <span id="range">?</span></li>
+            <li><b>Range Decade:</b> <span id="decade">?</span></li>
+            <li><b>Read Attribute:</b> <span id="attr">?</span></li>
+        </ul>
     </body>
 </html>
